@@ -5,3 +5,6 @@ tasks:
   - name: first task
     shell: uptime
     register: upt
+  - name: second task
+    shell: ls -ltra
+    register: files
