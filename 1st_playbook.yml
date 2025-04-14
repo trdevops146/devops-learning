@@ -1,7 +1,7 @@
 ---
-name: first playbook
-hosts: localhost
-tasks:
+- name: first playbook
+  hosts: localhost
+  tasks:
   - name: first task
     shell: uptime
     register: upt
