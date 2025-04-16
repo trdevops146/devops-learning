@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  gather_facts: no
+  tasks:
+  - name: check the uptime
+    shell: uptime
+    register: up
+    
